@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MeditationAppUI" parent="Theme.MeditationAppUI.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:colorPrimary">@color/deepblue</item>
+
+
+
+        <!-- Secondary brand color. -->
+        <item name="android:colorSecondary">@color/deepblue</item>
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_500</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MeditationAppUI.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+<!--    <style name="Theme.MeditationUIYouTube.AppBarOverlay" parent="" />-->
+
+<!--    <style name="Theme.MeditationUIYouTube.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />ThemeOverlay.AppCompat.Dark.ActionBar-->
+</resources>
